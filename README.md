@@ -4,10 +4,10 @@ This project demonstrates the use of TensorFlow and Python for analyzing and for
 
 ## Project Structure
 
-- `general_models.ipynb`: A Jupyter Notebook that contains the main analysis, including data preprocessing, model training, and visualization.
-- `weather_module.py`: A Python module that provides functions used in the notebook for data division, model creation, plotting, preprocessing, and forecasting.
+- `weather_model.ipynb`: A Jupyter Notebook that contains the main analysis, including data preprocessing, model training, and visualization.
+- `utils.py`: A Python module that provides functions used in the notebook for data division, model creation, plotting, preprocessing, and forecasting.
 
-## `general_models.ipynb`
+## `weather_model.ipynb`
 
 This Jupyter Notebook contains the core analysis workflow:
 1. Importing necessary libraries.
@@ -16,7 +16,7 @@ This Jupyter Notebook contains the core analysis workflow:
 4. Building and training the neural network model.
 5. Forecasting and visualizing the results.
 
-## `weather_module.py`
+## `utils.py`
 
 This Python module contains essential functions:
 - `dividir`: Splits the dataset into training and validation sets.
@@ -27,7 +27,7 @@ This Python module contains essential functions:
 
 ## Usage
 
-To use this project, clone the repository and run the Jupyter Notebook `general_models.ipynb`. Ensure that `weather_module.py` is in the same directory as the notebook, as it imports functions from this module.
+To use this project, clone the repository and run the Jupyter Notebook `weather_model.ipynb`. Ensure that `utils.py` is in the same directory as the notebook, as it imports functions from this module.
 
 ## Requirements
 
